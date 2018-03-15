@@ -1,0 +1,9 @@
+1,Daniel in the Lion's Den,27_Daniel.txt,6,danielLion_images
+2,David and Goliath,asdf,adsf,3
+3,Birth of Jesus,asdf,asdf,2
+4,Creation,asdf,asdf,1
+5,Abraham and Isaac,adsf,asdf,3
+6,Peter and John,asdf,asdf,3
+7,Revelation 3,66_Rev.txt,3,revelation3_images 
+8,Egypt,02_Exodus.txt,7,exodus_pics
+9,Nebuchadnezzar's Dream,27_Daniel.txt,2,daniel2_images
