@@ -233,7 +233,7 @@ public class ScienceGUI extends javax.swing.JFrame {
 
     private void storyListActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_storyListActionPerformed
         // TODO add your handling code here:
-                nextImageNumber = 1;
+        nextImageNumber = 1;
         int titleIndex = storyList.getSelectedIndex();
         imageDirectory = Coordinator.ScienceGetImageDirectory(titleIndex); 
         System.out.println("this is the image directory" + imageDirectory);

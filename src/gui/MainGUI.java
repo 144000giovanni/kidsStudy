@@ -5,6 +5,8 @@
  */
 package gui;
 
+import gui.MathGUI.MathMainGUI;
+
 /**
  *
  * @author giovanni
@@ -32,7 +34,7 @@ public class MainGUI extends javax.swing.JFrame {
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
         science = new javax.swing.JButton();
-        stories2 = new javax.swing.JButton();
+        math = new javax.swing.JButton();
         stories3 = new javax.swing.JButton();
         stories4 = new javax.swing.JButton();
         stories5 = new javax.swing.JButton();
@@ -70,11 +72,11 @@ public class MainGUI extends javax.swing.JFrame {
             }
         });
 
-        stories2.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
-        stories2.setText("Maths & Statistics");
-        stories2.addActionListener(new java.awt.event.ActionListener() {
+        math.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
+        math.setText("Maths & Statistics");
+        math.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                stories2ActionPerformed(evt);
+                mathActionPerformed(evt);
             }
         });
 
@@ -180,7 +182,7 @@ public class MainGUI extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(stories2, javax.swing.GroupLayout.PREFERRED_SIZE, 453, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(math, javax.swing.GroupLayout.PREFERRED_SIZE, 453, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(52, 52, 52)
                                 .addComponent(stories10, javax.swing.GroupLayout.PREFERRED_SIZE, 330, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(54, 54, 54)
@@ -222,7 +224,7 @@ public class MainGUI extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(27, 27, 27)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(stories2)
+                            .addComponent(math)
                             .addComponent(stories10))
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
@@ -337,9 +339,10 @@ public class MainGUI extends javax.swing.JFrame {
         
     }//GEN-LAST:event_scienceActionPerformed
 
-    private void stories2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_stories2ActionPerformed
+    private void mathActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mathActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_stories2ActionPerformed
+        new MathMainGUI().setVisible(true);
+    }//GEN-LAST:event_mathActionPerformed
 
     private void stories3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_stories3ActionPerformed
         // TODO add your handling code here:
@@ -437,13 +440,13 @@ public class MainGUI extends javax.swing.JFrame {
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JButton math;
     private javax.swing.JButton science;
     private javax.swing.JButton stories;
     private javax.swing.JButton stories10;
     private javax.swing.JButton stories11;
     private javax.swing.JButton stories12;
     private javax.swing.JButton stories13;
-    private javax.swing.JButton stories2;
     private javax.swing.JButton stories3;
     private javax.swing.JButton stories4;
     private javax.swing.JButton stories5;
