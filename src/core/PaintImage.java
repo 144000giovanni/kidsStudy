@@ -9,6 +9,7 @@ import java.io.*;
 import java.awt.*; 
 import java.awt.image.*; 
 import javax.imageio.*; 
+import gui.MathGUI.BesideNextTo;
 /**
  *
  * @author giovannisaberon

@@ -68,6 +68,7 @@ public class MathMainGUI extends javax.swing.JFrame {
         topMiddleBottom = new javax.swing.JButton();
         leftMiddleRight = new javax.swing.JButton();
         besideNextTo = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -92,16 +93,28 @@ public class MathMainGUI extends javax.swing.JFrame {
             }
         });
 
+        jButton1.setText("Count To 20");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(27, 27, 27)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(besideNextTo)
-                    .addComponent(topMiddleBottom)
-                    .addComponent(leftMiddleRight, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(27, 27, 27)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(besideNextTo)
+                            .addComponent(topMiddleBottom)
+                            .addComponent(leftMiddleRight, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(42, 42, 42)
+                        .addComponent(jButton1)))
                 .addContainerGap(1057, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -113,7 +126,9 @@ public class MathMainGUI extends javax.swing.JFrame {
                 .addComponent(leftMiddleRight)
                 .addGap(41, 41, 41)
                 .addComponent(besideNextTo)
-                .addContainerGap(647, Short.MAX_VALUE))
+                .addGap(53, 53, 53)
+                .addComponent(jButton1)
+                .addContainerGap(565, Short.MAX_VALUE))
         );
 
         pack();
@@ -136,6 +151,11 @@ public class MathMainGUI extends javax.swing.JFrame {
         // TODO add your handling code here:
         new  BesideNextTo().setVisible(true);
     }//GEN-LAST:event_besideNextToActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+        new CountTwenty().setVisible(true);
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -181,6 +201,7 @@ public class MathMainGUI extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton besideNextTo;
+    private javax.swing.JButton jButton1;
     private javax.swing.JButton leftMiddleRight;
     private javax.swing.JButton topMiddleBottom;
     // End of variables declaration//GEN-END:variables
