@@ -36,10 +36,10 @@ public class MainGUI extends javax.swing.JFrame {
         science = new javax.swing.JButton();
         math = new javax.swing.JButton();
         stories3 = new javax.swing.JButton();
-        stories4 = new javax.swing.JButton();
+        english = new javax.swing.JButton();
         stories5 = new javax.swing.JButton();
         stories6 = new javax.swing.JButton();
-        stories8 = new javax.swing.JButton();
+        kjv = new javax.swing.JButton();
         stories9 = new javax.swing.JButton();
         stories10 = new javax.swing.JButton();
         stories11 = new javax.swing.JButton();
@@ -88,11 +88,11 @@ public class MainGUI extends javax.swing.JFrame {
             }
         });
 
-        stories4.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
-        stories4.setText("English");
-        stories4.addActionListener(new java.awt.event.ActionListener() {
+        english.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
+        english.setText("English");
+        english.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                stories4ActionPerformed(evt);
+                englishActionPerformed(evt);
             }
         });
 
@@ -112,11 +112,11 @@ public class MainGUI extends javax.swing.JFrame {
             }
         });
 
-        stories8.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
-        stories8.setText("KJV");
-        stories8.addActionListener(new java.awt.event.ActionListener() {
+        kjv.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
+        kjv.setText("KJV");
+        kjv.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                stories8ActionPerformed(evt);
+                kjvActionPerformed(evt);
             }
         });
 
@@ -177,7 +177,7 @@ public class MainGUI extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(stories6, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(stories4, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(english, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(310, 310, 310))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -200,7 +200,7 @@ public class MainGUI extends javax.swing.JFrame {
                                     .addGroup(jPanel1Layout.createSequentialGroup()
                                         .addComponent(stories5, javax.swing.GroupLayout.PREFERRED_SIZE, 284, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(74, 74, 74)
-                                        .addComponent(stories8, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                        .addComponent(kjv, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE))))
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -233,14 +233,14 @@ public class MainGUI extends javax.swing.JFrame {
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGap(31, 31, 31)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(stories8)
+                                    .addComponent(kjv)
                                     .addComponent(editor)))))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(23, 23, 23)
                         .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(13, 13, 13)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(stories4)
+                    .addComponent(english)
                     .addComponent(stories6))
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -348,10 +348,10 @@ public class MainGUI extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_stories3ActionPerformed
 
-    private void stories4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_stories4ActionPerformed
+    private void englishActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_englishActionPerformed
         // TODO add your handling code here:
         new EnglishGUI().setVisible(true);
-    }//GEN-LAST:event_stories4ActionPerformed
+    }//GEN-LAST:event_englishActionPerformed
 
     private void stories5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_stories5ActionPerformed
         // TODO add your handling code here:
@@ -365,11 +365,11 @@ public class MainGUI extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_stories7ActionPerformed
 
-    private void stories8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_stories8ActionPerformed
+    private void kjvActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_kjvActionPerformed
         // TODO add your handling code here:
         this.setVisible(false);
         new KJVGUI().setVisible(true);
-    }//GEN-LAST:event_stories8ActionPerformed
+    }//GEN-LAST:event_kjvActionPerformed
 
     private void stories9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_stories9ActionPerformed
         // TODO add your handling code here:
@@ -435,11 +435,13 @@ public class MainGUI extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton editor;
+    private javax.swing.JButton english;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JButton kjv;
     private javax.swing.JButton math;
     private javax.swing.JButton science;
     private javax.swing.JButton stories;
@@ -448,11 +450,9 @@ public class MainGUI extends javax.swing.JFrame {
     private javax.swing.JButton stories12;
     private javax.swing.JButton stories13;
     private javax.swing.JButton stories3;
-    private javax.swing.JButton stories4;
     private javax.swing.JButton stories5;
     private javax.swing.JButton stories6;
     private javax.swing.JButton stories7;
-    private javax.swing.JButton stories8;
     private javax.swing.JButton stories9;
     // End of variables declaration//GEN-END:variables
 }

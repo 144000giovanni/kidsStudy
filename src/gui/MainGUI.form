@@ -74,7 +74,7 @@
                       <Group type="102" attributes="0">
                           <Component id="stories6" min="-2" pref="215" max="-2" attributes="0"/>
                           <EmptySpace max="32767" attributes="0"/>
-                          <Component id="stories4" min="-2" pref="215" max="-2" attributes="0"/>
+                          <Component id="english" min="-2" pref="215" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="310" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" attributes="0">
@@ -101,7 +101,7 @@
                                       <Group type="102" attributes="0">
                                           <Component id="stories5" min="-2" pref="284" max="-2" attributes="0"/>
                                           <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
-                                          <Component id="stories8" min="-2" pref="215" max="-2" attributes="0"/>
+                                          <Component id="kjv" min="-2" pref="215" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                               </Group>
@@ -150,7 +150,7 @@
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="stories8" min="-2" max="-2" attributes="0"/>
+                                      <Component id="kjv" min="-2" max="-2" attributes="0"/>
                                       <Component id="editor" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
@@ -163,7 +163,7 @@
                   </Group>
                   <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="stories4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="english" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="stories6" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="103" groupAlignment="0" attributes="0">
@@ -261,7 +261,7 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="stories3ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="stories4">
+        <Component class="javax.swing.JButton" name="english">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Dialog" size="36" style="1"/>
@@ -269,7 +269,7 @@
             <Property name="text" type="java.lang.String" value="English"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="stories4ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="englishActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="stories5">
@@ -294,7 +294,7 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="stories6ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="stories8">
+        <Component class="javax.swing.JButton" name="kjv">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Dialog" size="36" style="1"/>
@@ -302,7 +302,7 @@
             <Property name="text" type="java.lang.String" value="KJV"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="stories8ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="kjvActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="stories9">
